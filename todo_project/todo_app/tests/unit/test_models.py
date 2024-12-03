@@ -48,6 +48,4 @@ class TaskModelTest(TestCase):
         try:
             self.task.full_clean()
         except ValidationError:
-            self.fail(
-                "ValidationError unexpectedly when due_date is None!"
-            )
+            self.fail("ValidationError unexpectedly when due_date is None!")

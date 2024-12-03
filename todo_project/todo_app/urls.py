@@ -21,5 +21,4 @@ urlpatterns = [
         TaskDeleteView.as_view(),
         name="task-delete",
     ),
-
 ]
