@@ -1,0 +1,77 @@
+todo_env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Django stuff:
+*.log
+*.pot
+db.sqlite3
+db.sqlite3-journal
+
+# Local settings
+local_settings.py
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Mac OS files
+.DS_Store
+
+# Test outputs
+test-results/
+
+# Backup files
+*.bak
+
+# Ignore compiled C files
+*.so
+
+# Backup files
+*.swp
+*~
+
+# Ignore migrations
+**/migrations/**
+
+# Secrets
+*.pem
+*.key
+
+# Ignore videos if not required
+# Uncomment the line below if you don't want to include the videos folder
+# videos/
