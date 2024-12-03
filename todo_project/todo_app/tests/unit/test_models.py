@@ -27,7 +27,7 @@ class TaskModelTest(TestCase):
         past_due_date = timezone.now() - timedelta(days=1)
         task = Task(
             title='Past Task',
-            description='This task has a past due date',
+            description='This task has a past due date HEHE',
             due_date=past_due_date,
             status='OPEN'
         )
