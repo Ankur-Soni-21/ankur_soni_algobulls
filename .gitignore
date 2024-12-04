@@ -22,7 +22,7 @@ dist/
 # Django stuff:
 *.log
 *.pot
-db.sqlite3
+# db.sqlite3
 db.sqlite3-journal
 
 # Local settings
